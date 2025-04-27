@@ -1,0 +1,28 @@
+.admin-dashboard {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .admin-actions {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .admin-actions button {
+    background: #17a2b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .admin-actions button:hover {
+    background: #138496;
+  }
+  

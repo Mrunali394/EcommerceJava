@@ -1,0 +1,26 @@
+.not-found-container {
+    text-align: center;
+    padding: 5rem;
+  }
+  
+  .not-found-container h1 {
+    font-size: 6rem;
+    margin-bottom: 1rem;
+  }
+  
+  .not-found-container h3 {
+    margin-bottom: 2rem;
+  }
+  
+  .not-found-container a {
+    padding: 0.8rem 1.5rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  
+  .not-found-container a:hover {
+    background: #0056b3;
+  }
+  
