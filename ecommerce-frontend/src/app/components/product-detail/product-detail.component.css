@@ -1,0 +1,38 @@
+.product-detail-container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .product-detail-container img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  
+  .details {
+    max-width: 600px;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    color: #28a745;
+  }
+  
+  .description {
+    margin: 1rem 0;
+  }
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  button:hover {
+    background: #e85c50;
+  }
+  

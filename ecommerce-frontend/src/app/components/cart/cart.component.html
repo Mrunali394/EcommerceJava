@@ -1,1 +1,19 @@
-<p>cart works!</p>
+<div class="cart-container">
+  <h2>Your Cart</h2>
+
+  <div *ngIf="cartItems.length > 0; else emptyCart">
+    <div class="cart-item" *ngFor="let item of cartItems">
+      <p>{{ item.name }} - ₹{{ item.price }}</p>
+      <button (click)="removeFromCart(item)">Remove</button>
+    </div>
+
+    <h3>Total: ₹{{ getTotal() }}</h3>
+
+    <!-- 🚀 Buy Now Button -->
+    <button class="buy-now-btn" (click)="buyNow()">Buy Now</button>
+  </div>
+
+  <ng-template #emptyCart>
+    <p>Your cart is empty.</p>
+  </ng-template>
+</div>

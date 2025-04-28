@@ -1,1 +1,9 @@
-<p>checkout works!</p>
+<div class="checkout-container">
+  <h2>Checkout</h2>
+  <form (ngSubmit)="placeOrder()">
+    <input type="text" placeholder="Full Name" [(ngModel)]="name" name="name" required>
+    <input type="text" placeholder="Address" [(ngModel)]="address" name="address" required>
+    <input type="text" placeholder="Phone Number" [(ngModel)]="phone" name="phone" required>
+    <button type="submit">Place Order</button>
+  </form>
+</div>

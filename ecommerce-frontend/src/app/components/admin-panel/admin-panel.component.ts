@@ -5,6 +5,4 @@ import { Component } from '@angular/core';
   templateUrl: './admin-panel.component.html',
   styleUrls: ['./admin-panel.component.css']
 })
-export class AdminPanelComponent {
-
-}
+export class AdminPanelComponent { }

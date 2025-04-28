@@ -1,0 +1,77 @@
+/* Make the whole page a flex container */
+
+body, html {
+
+    height: 100%;
+  
+    margin: 0;
+  
+  }
+  
+  
+  
+  /* The main wrapper */
+  
+  .main-container {
+  
+    min-height: 100%;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+  }
+  
+  
+  
+  /* Content area takes all space left */
+  
+  .content {
+  
+    flex: 1;
+  
+  }
+  
+  
+  
+  /* Footer normal */
+  
+  footer {
+  
+    background-color: #ff6f61;
+  
+    text-align: center;
+  
+    padding: 10px;
+  
+  }
+
+
+  /* Full page height and flex layout */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Flex layout to push footer down */
+  .main-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .content {
+    flex: 1; /* Take all available space */
+  }
+
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex: 1;
+  }
